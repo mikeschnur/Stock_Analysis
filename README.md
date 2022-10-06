@@ -18,6 +18,7 @@ When comparing the the performance of 11 different stocks in the years 2017 and 
 ![ModuleTime_2018](https://user-images.githubusercontent.com/108902185/194435371-c8cf8e93-0e0f-4620-9530-b1c46f97e263.png)
 
 Both run times for the original code were around 0.6 seconds.
+
 ![VBAChallenge_2017](https://user-images.githubusercontent.com/108902185/194435450-21572791-f53d-4cb3-b6cb-b1130a0867bd.png)
 
 ![VBAChallenge_2018](https://user-images.githubusercontent.com/108902185/194435465-49b102c4-b3c5-402e-8a34-5048b6ab4cfe.png)
@@ -28,4 +29,8 @@ Both run times for the reactored code were around 0.1 seconds.
 ![Screen Shot 2022-10-06 at 7 41 04 PM](https://user-images.githubusercontent.com/108902185/194437490-b9613a96-07e3-4ecb-8484-10f63a94f946.png)
 
 The original code featured a nested loop that had the output within the loop, which caused a delay in output time.
+
+![Screen Shot 2022-10-06 at 7 46 58 PM](https://user-images.githubusercontent.com/108902185/194438044-e5a11c66-3ba8-44f7-8b20-c47d09f2d3da.png)
+
+The refactored code has only one loop that has the output in a seperate loop. This cuts down on the amount of times the output is produced, which cuts down on the time needed to produce the analysis.
 
