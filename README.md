@@ -34,3 +34,11 @@ The original code featured a nested loop that had the output within the loop, wh
 
 The refactored code has only one loop that has the output in a seperate loop. This cuts down on the amount of times the output is produced, which cuts down on the time needed to produce the analysis.
 
+## 1. What are the advantages and disadvantages of refactoring code?
+
+Refactoring can allow a programmer to find unnecessary loops and statements that can be eliminated or reowkred that allow the code to run more efficently. As well as extra repition when coding and attempting to trim the fat within your code will make your future code more effiecent as well.
+
+Refactoring code also may introduce new bugs and issues within the code that can take valuable time to resolve when the code was functional to begin with, even if the original code was not the pinnacle of efficency. 
+
+## 2. How do these pros and cons apply to refactoring the original VBA script?
+The code was refactored to reduce the uneeded outputs as a result of loops and bring the processing time down when receiving the results. The time taken to refactor was rather short and the new looping method will likely be useful in the future. 
